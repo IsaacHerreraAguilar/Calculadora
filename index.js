@@ -70,7 +70,7 @@ function displayNumber(number){
 // Función para mostrar en pantalla el símbolo de la operación correspondiente
 
 function displaySymbol(symbol){
-    if(displayInput.value == '0'){
+    if(displayInput.value == '0' || displayInput.value == '.'){
         return;
     }
 

@@ -47,3 +47,37 @@ h1, h2 {
     font-weight: 400;
     font-size: 3rem;
 }
+
+@media (max-width: 900px) {
+    .btn {
+        font-size: 1.5rem;
+    }
+    
+    .main-container {
+        width: 60%;
+    }
+}
+
+@media (max-width: 600px) {
+    .main-container {
+        width: 80%;
+    }
+}
+
+@media (max-height: 700px) {
+    .main-container {
+        height: 80%;
+    }
+}
+
+@media (max-height: 600px) {
+    .main-container {
+        height: 100%;
+    }
+}
+
+@media (max-height: 500px) {
+    .main-container {
+        height: 110%;
+    }
+}
